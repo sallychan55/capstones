@@ -34,7 +34,6 @@ const NFT_ABI = [
   },
 ];
 
-/*
 const FACTORY_ABI = [ // mint abi gotton from ./eth-contract/build/contracts/ERC721MintableComplete.json
   {
     "constant": false,
@@ -63,10 +62,8 @@ const FACTORY_ABI = [ // mint abi gotton from ./eth-contract/build/contracts/ERC
     "type": "function"
   }
 ]
-*/
 
-const FACTORY_ABI = require("./eth-contracts/build/contracts/SolnSquareVerifier.json");
-
+//const FACTORY_ABI = require("./eth-contracts/build/contracts/SolnSquareVerifier.json");
 
 async function main() {
   const network =
@@ -81,7 +78,7 @@ async function main() {
 
   if (FACTORY_CONTRACT_ADDRESS) {
     const factoryContract = new web3Instance.eth.Contract(
-      FACTORY_ABI.abi,
+      FACTORY_ABI,
       FACTORY_CONTRACT_ADDRESS,
       { gasLimit: "1000000" }
     );
