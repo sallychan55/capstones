@@ -8,7 +8,7 @@ const isInfura = !!process.env.INFURA_KEY;
 const FACTORY_CONTRACT_ADDRESS = process.env.FACTORY_CONTRACT_ADDRESS;
 const OWNER_ADDRESS = process.env.OWNER_ADDRESS;
 const NETWORK = process.env.NETWORK;
-const NUM_CREATURES = 20;
+const NUM_CREATURES = 10;
 
 if (!MNEMONIC || !NODE_API_KEY || !OWNER_ADDRESS || !NETWORK) {
   console.error(
@@ -84,7 +84,7 @@ async function main() {
     );
 
     // Creatures issued directly to the owner.
-    for (var i = 10; i < NUM_CREATURES; i++) {
+    for (var i = 0; i < NUM_CREATURES; i++) {
       const result = await factoryContract.methods
         .mint(OWNER_ADDRESS, i)
         .send({ from: OWNER_ADDRESS });
