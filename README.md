@@ -28,9 +28,9 @@ then run below command to deploy.
 `truffle migrate --network rinkeby`
 
 # Deployment
-Result of deployment with my address.
+Result of deployments with my address.
 
-`
+```
 Deploying 'ERC721Mintable'
    --------------------------
    > transaction hash:    0x278c153fe5e63d48a354bdcecad5e72832dfc70e0b6cb4851866e60db9daa49d
@@ -74,7 +74,9 @@ Deploying 'ERC721Mintable'
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.04230117 ETH
-`
+
+```
+
 See eth-contracts/build/contracts folder for Contract Abi's.
 
 # OpenSea Store Front
