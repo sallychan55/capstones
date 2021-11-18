@@ -14,9 +14,11 @@ then run below command to compile.
 # Test
 In a terminal, go to `eth-contracts` folder and run following commands.
 
-`truffle test ./test/TestSquareVerifier.js`
-`truffle test ./test/TestSolnSquareVerifier.js`
 `truffle test ./test/TestERC721Mintable.js`
+
+`truffle test ./test/TestSolnSquareVerifier.js`
+
+`truffle test ./test/TestSquareVerifier.js`
 
 # Rinkeby Deployment Information
 Create .secret file in `eth-contracts` folder with your MetaMask.
