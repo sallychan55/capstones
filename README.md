@@ -82,6 +82,13 @@ See eth-contracts/build/contracts folder for Contract Abi's.
 # OpenSea Store Front
 https://testnets.opensea.io/collection/property-capstone-project
 
+# Traded Assets
+* https://testnets.opensea.io/assets/0x9614602deec3f4a795f9ef79debd4e618d00ec7f/0
+* https://testnets.opensea.io/assets/0x9614602deec3f4a795f9ef79debd4e618d00ec7f/1
+* https://testnets.opensea.io/assets/0x9614602deec3f4a795f9ef79debd4e618d00ec7f/2
+* https://testnets.opensea.io/assets/0x9614602deec3f4a795f9ef79debd4e618d00ec7f/3
+* https://testnets.opensea.io/assets/0x9614602deec3f4a795f9ef79debd4e618d00ec7f/4
+
 # Libraries
 * Truffle v5.1.14-nodeLTS.0 (core: 5.1.13)
 * Solidity v0.5.16 (solc-js)
